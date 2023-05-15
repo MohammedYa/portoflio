@@ -46,6 +46,10 @@
     list-style: none;
     padding: 10px;
 }
+.links ul{
+    margin-top: 52px;
+    padding: 0px;
+}
 
 .links a:hover {
     color: var(--main-color1);
@@ -474,7 +478,7 @@
 /*     foooooter      */
 
 .footer {
-    height: 150px;
+    height: 70px;
     display: flex;
     align-items: center;
     background-color: #343a40;
@@ -490,4 +494,86 @@
 .footer a {
     text-decoration: none;
     color: white;
+}
+
+
+
+
+
+
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .nav-link {
+       z-index: 99;
+        width: 25%;
+        box-shadow: 0 0 20px rgb(98, 96, 96);
+       
+    } 
+
+    .page{
+        width: 75%;
+    }
+
+    .about-me h3 {
+       
+        font-size: 7rem;
+        
+    }
+    .test h3 {
+        font-size: 28px;
+    }
+    .test p {
+        font-size: 18px;
+    }
+    .list-style2 {
+        font-size: 15px;
+    }
+    .cv-btn{
+       
+    padding: 0.8rem 1.6rem;;
+   
+    top: 267px;
+    }
+    .featured-box p {
+        font-size: 19px;
+    }
+    .serv-icons {
+        width: 162px;
+       
+    }
+    .summ h3 {
+       
+        font-size: 7rem;
+    }
+    .box  h3{
+   
+        font-size: 9rem;
+       
+    }
+    .box p {
+    
+        font-size: 4rem;
+    
+    }
+    .box p::after {
+        top: 85px;
+        right: 123px;
+    }
+    .contact {
+        height: auto;
+    }
+   .spanEmail {
+        font-size: 13px;
+    }
+    
+    .porto h3 {
+        
+        font-size: 7rem;
+    }
+}
+@media screen and (min-width:768px)and (max-width:992px) {
+    
+}
+@media screen and (min-width:500px)and (max-width:768px) {
+    
 }
