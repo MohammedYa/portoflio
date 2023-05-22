@@ -572,7 +572,113 @@
     }
 }
 @media screen and (min-width:768px)and (max-width:992px) {
-    
+    .nav-link {
+        display: none;
+        /* position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        background-color: #111418;
+        width: 20%;
+        box-shadow: 0 0 20px white;
+        padding: 10px; */
+    }
+
+    .page {
+        width: 100%;
+    }
+
+    .about-me h3 {
+        font-size: 6rem;
+    }
+
+    .about-me h2 {
+        top: 50px;
+    }
+
+    .test p {
+        font-size: 20px;
+    }
+
+    .test {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .list-info {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .test2 {
+        width: 50%;
+    }
+
+    .revs {
+        margin: 60px;
+    }
+
+    .featured-box {
+        line-height: 0.6;
+    }
+
+    .featured-box2 {
+        border-left: none;
+    }
+
+    .featured-box3 {
+        border-bottom: #343a40 dashed 1px;
+    }
+
+    .serv h3 {
+        font-size: 6rem;
+    }
+
+    .serv p {
+        top: 70px;
+    }
+
+    .serv-icons {
+        width: 180px;
+    }
+
+    .serv-info {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .summ h3 {
+        font-size: 6rem;
+    }
+
+    .summ p {
+        top: 70px;
+    }
+
+    .my-skills {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my-skil {
+        width: 100%;
+    }
+
+    .porto h3 {
+        font-size: 6rem;
+    }
+
+    .porto p {
+        top: 75px;
+    }
+    .box h3 {
+        font-size: 7rem;
+    }
+    .box p {
+        font-size: 3rem;
+        top: 60px;
+    }
 }
 @media screen and (min-width:500px)and (max-width:768px) {
     
