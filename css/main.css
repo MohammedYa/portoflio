@@ -31,7 +31,12 @@
 .img-box {
    margin: 10px; 
 }
-
+.list-Section{
+    font-size: 20px;
+    position: absolute;
+   color: #007bff; 
+    display: none;
+}
 .img-box img {
     border-radius: 50%;
     border:#343a40 10px solid ;
@@ -571,9 +576,27 @@
 
 @media screen and (min-width:768px)and (max-width:992px) {
     .nav-link {
-        display: none;
+      position: sticky;
+      z-index: 999;
+      width: 100%;
     }
 
+    .img-box{
+        display: none;
+    }
+    .nav-link h2{
+        display: none;
+    }
+    .list-Section{
+        z-index: 9999;
+         display: inline-block; 
+         font-size: 28px;
+         top: 30px;
+         right: 50px;
+      }
+    .icons{
+        position: static;
+    }
     .page {
         width: 100%;
     }
@@ -621,6 +644,11 @@
         border-bottom: #343a40 dashed 1px;
     }
 
+    .cv-btn {
+        
+        position: static;
+        margin: 0px 0px 20px 20px ;
+    }
     .serv h3 {
         font-size: 6rem;
     }
@@ -629,6 +657,9 @@
         top: 70px;
     }
 
+    .info{
+        width: 50%;
+    }
     .serv-icons {
         width: 180px;
     }
@@ -672,9 +703,31 @@
 }
 
 @media screen and (min-width:500px)and (max-width:768px) {
-    .nav-link {
-        display: none;
+  body{
+        overflow-x: hidden;
     }
+    .nav-link {
+        position: sticky;
+        z-index: 999;
+        width: 100%;
+      }
+      .img-box{
+          display: none;
+      }
+      .nav-link h2{
+          display: none;
+      }
+      .list-Section{
+        z-index: 9999;
+         display: inline-block; 
+         font-size: 28px;
+         top: 30px;
+         right: 50px;
+      }
+      .icons{
+          position: static;
+      }
+   
 
     .page {
         width: 100%;
@@ -707,6 +760,7 @@
     .cv-btn {
         padding: 0.5rem 1.6rem;
         font-weight: 400;
+        left: 140px;
     }
      .serv h3 {
         font-size: 5rem;
@@ -730,7 +784,12 @@
     .porto p {
         top: 60px;
     }
-   
+    .featured-box {
+        border: transparent;
+        border-bottom: #343a40 dashed 1px !important;
+       
+    }
+
     .box h3 {
         font-size: 6rem;
     }
@@ -743,5 +802,144 @@
     .info {
         text-align: center;
         padding-left: 0px;
+    }
+    
+}
+@media screen and (min-width:360px)and (max-width:500px) {
+    body{
+        overflow-x: hidden;
+    }
+    .nav-link {
+        position: sticky;
+        z-index: 999;
+        width: 100%;
+      }
+      .img-box{
+          display: none;
+      }
+      .nav-link h2{
+          display: none;
+      }
+      .list-Section{
+        z-index: 9999;
+         display: inline-block; 
+         font-size: 28px;
+         top: 30px;
+         right: 50px;
+      }
+      .icons{
+          position: static;
+      }
+    .page {
+        width: 100% ;
+    }   
+    .title{
+        width: 100%;
+    }
+    .about-me h3 {
+        font-size: 3rem;
+    }
+    .about-me h2 {
+        font-size: 2rem;
+     
+        top: 39px;
+    }
+    .about-me h2::after {
+       
+        top: 46px;
+        right: 77px;
+    }
+    .page .container{
+        padding: 0% !important;
+    }
+    .page .container .row{
+        --bs-gutter-x: 0rem;
+    }
+    .test h3 {
+        font-size: 24px;
+        padding: 10px 0px;
+    }
+    .test p {
+        font-size: 17px;
+      padding: 5px;
+    }
+    .list-style2 ul {
+     margin: 0 !important;
+     padding: 0% !important;
+    }
+    .cv-btn{
+        position: static;
+        margin: 0px 0px 10px 20px ;
+    }
+    .featured-box {
+        border: transparent;
+        border-bottom: #343a40 dashed 1px !important;
+    }
+    .serv h3 ,.summ h3 { 
+     font-size: 3rem;
+    }
+    .serv p {
+        font-size: 2rem;
+        top: 70px;
+    }
+    .serv p::after {
+       
+        top: 45px;
+        right: 46px;
+    }
+    .serv-icons {
+       
+        width: 185px;
+       
+    }
+    .summ p{
+
+        font-size: 2.5rem;
+        top: 70px;
+    }
+    .summ p::after {
+      
+        width: 92px;
+        height: 3px;
+        background-color: var(--main-color1);
+        position: absolute;
+        top: 55px;
+        right: 20px;
+    }
+    .num-3 .container .row{
+        padding: 0 !important;
+    }
+    .num-3 .container .row h3{
+
+        font-size: 33px;
+        margin-top: 20px;
+    }
+    .skillpadd{
+        padding:10px ;
+    }
+    .porto h3 {
+        font-size: 3rem;
+    }
+    .porto p {
+        
+        font-size: 2rem;
+       
+        top: 70px;
+    }
+    .porto p::after {
+        width: 90px;
+        top: 46px;
+        right: 23px;
+    }
+    .box h3{
+        font-size: 5rem;
+    }
+    .box p{
+        font-size: 3rem;
+        top: 45px;
+    }
+    .form-control{
+        width: 96%;
+        margin: auto;
     }
 }
