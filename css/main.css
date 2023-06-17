@@ -16,7 +16,57 @@
     --main-color9: #fd7e14;
     --main-color10: #795548;
 }
-
+.option{
+    position: fixed !important;
+    top: 200px;
+    right: 0px;
+    display: flex;
+    z-index: 9999;
+}
+.setting{
+    cursor: pointer;
+    color:#FFF;
+    background-color: #555555;
+    font-size: 22px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+.switches{
+    background-color: #fff;
+    width: fit-content;
+    padding: 15px;
+}
+.colorsOptions{
+    margin-bottom: 20px;
+}
+.colorsOption1{
+    margin-bottom: 8px;
+    display: flex;
+}
+.colorsOption1 div{
+    margin: 3px;
+    cursor: pointer;
+}
+.switches p{
+font-size: 17px;
+ border-bottom: 1px solid #555555;
+}
+.reset{
+    font-size: 18px;
+    color: #fff !important;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: #20c997;
+    padding: 10px;
+}
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+              
+/*  navbar  */ 
 .nav-link {
     position: fixed;
     top: 0px;
