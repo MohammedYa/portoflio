@@ -282,14 +282,12 @@ font-size: 17px;
 .num-2 {
     background-color: #343a40;
 }
-
 .serv {
     display: flex;
     justify-content: center;
     padding: 15px;
     position: relative;
 }
-
 .serv h3 {
     color: #3e444a;
     font-weight: 700;
@@ -297,7 +295,6 @@ font-size: 17px;
     letter-spacing: 10px;
 
 }
-
 .serv p {
     color: whitesmoke;
     font-size: 3rem;
@@ -305,7 +302,6 @@ font-size: 17px;
     position: absolute;
     top: 90px;
 }
-
 .serv p::after {
     content: "";
     width: 100px;
@@ -315,7 +311,6 @@ font-size: 17px;
     top: 70px;
     right: 90px;
 }
-
 .serv-icons {
     background-color: #212529;
     width: 90px;
@@ -327,16 +322,13 @@ font-size: 17px;
     border-radius: 8px;
     font-size: 30px;
 }
-
 .serv-info {
     margin: 15px;
     padding: 15px;
 }
-
 .serv-info h3 {
     color: whitesmoke;
 }
-
 .serv-info p {
     color: rgba(255, 255, 255, .5);
 }
@@ -550,7 +542,18 @@ font-size: 17px;
     text-decoration: none;
     color: white;
 }
-
+.progress{
+    position: relative;
+    height: 12px !important;
+}
+.progress span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #20c997;
+    transition: width 1s linear;
+}
 
 
 
