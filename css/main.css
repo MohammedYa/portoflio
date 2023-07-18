@@ -551,11 +551,44 @@ font-size: 17px;
     left: 0;
     top: 0;
     height: 100%;
-    background-color: #20c997;
+    background-color: rgb(32, 201, 151);
     transition: width 1s linear;
 }
-
-
+.item-pro{
+    display: inline-block; 
+    width: 30%;
+    height: 300px;
+    margin: 10px;
+}
+.item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.layer{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+    top: 115%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(32, 201, 255,.5);
+    transition: all .5s;
+}
+.item:hover .layer{
+inset: 0;
+}
 
 
 @media screen and (min-width:992px) and (max-width:1200px) {
