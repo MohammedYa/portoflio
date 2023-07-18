@@ -811,6 +811,7 @@ font-size: 17px;
         padding-bottom: 15px;
     }
     .cv-btn {
+        margin: 16px 0px 10px 20px;
         padding: 0.5rem 1.6rem;
         font-weight: 400;
         left: 140px;
@@ -922,7 +923,7 @@ font-size: 17px;
     }
     .cv-btn{
         position: static;
-        margin: 0px 0px 10px 20px ;
+        margin: 15px 0px 10px 20px ;
     }
     .featured-box {
         border: transparent;
